@@ -10,4 +10,6 @@ void Led_TurnAllOn(void);
 
 void Led_TurnAllOff(void);
 
-uint8_t Led_GetState(int led);
+uint8_t Led_CheckIfOff(int led);
+
+uint8_t Led_CheckIfOn(int led);
